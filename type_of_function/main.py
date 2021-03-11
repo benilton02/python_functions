@@ -1,6 +1,8 @@
+#a função recebe um nome que a define
 def funcao_nomeada():
     return "hello"
 
+#a função não recebe um nome
 anonima = lambda : 'hi'
 
 #funcao em forma de classe
