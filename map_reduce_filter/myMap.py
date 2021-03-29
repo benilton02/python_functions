@@ -1,6 +1,6 @@
 from data import products
 
-class Mymap:
+class MyMap:
 
     def __init__(self) -> None:
         self.products = products
