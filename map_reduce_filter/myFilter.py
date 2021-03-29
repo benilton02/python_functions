@@ -7,7 +7,7 @@ class MyFilter():
 
     def show(self):
         """Retorna um objeto filter."""
-        return list(filter(lambda produc: True, self.products))
+        return filter(lambda produc: True, self.products)
 
     def price(self):
         """Retorna os produtos acima de 90"""
