@@ -2,7 +2,7 @@ from data import products
 
 class MyMap:
 
-    def __init__(self) -> None:
+    def __init__(self):
         self.products = products
 
 
